@@ -20,13 +20,21 @@ th {
 th[aria-sort="ascending"]::after { content: " ▲"; }
 th[aria-sort="descending"]::after { content: " ▼"; }
 
-tr[data-tribe="イサマシ"] { color: red; }
-tr[data-tribe="フシギ"] { color: yellow; }
-tr[data-tribe="ゴーケツ"] { color: orange; }
-tr[data-tribe="プリチー"] { color: hotpink; }
-tr[data-tribe="ポカポカ"] { color: yellowgreen; }
-tr[data-tribe="ウスラカゲ"] { color: #9db4ff; }
-tr[data-tribe="ブキミー"] { color: #c070ff; }
-tr[data-tribe="ニョロロン"] { color: cyan; }
-tr[data-tribe="カイマ"] { color: gray; }
-tr[data-tribe="ボス"] { color: white; }
+table:not(.show-a) .a {
+  display: none;
+}
+
+label {
+  margin-right: 12px;
+}
+
+[data-tribe="イサマシ"] { color: red; }
+[data-tribe="フシギ"] { color: yellow; }
+[data-tribe="ゴーケツ"] { color: orange; }
+[data-tribe="プリチー"] { color: hotpink; }
+[data-tribe="ポカポカ"] { color: yellowgreen; }
+[data-tribe="ウスラカゲ"] { color: #9db4ff; }
+[data-tribe="ブキミー"] { color: #c070ff; }
+[data-tribe="ニョロロン"] { color: cyan; }
+[data-tribe="カイマ"] { color: gray; }
+[data-tribe="ボス"] { color: white; }
